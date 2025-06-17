@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>5</id>
+		<name>CarBooking</name>
+		<table_name>car_booking</table_name>
+	</hiblock>
+	<langs>
+		<lang>
+			<id>5</id>
+			<lid>ru</lid>
+			<name>Брони автомобилей</name>
+		</lang>
+	</langs>
+	<fields>
+		<field>
+			<id>128</id>
+			<entity_id>HLBLOCK_5</entity_id>
+			<field_name>UF_START_BOOKING</field_name>
+			<user_type_id>datetime</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>I</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>
+					<type>NONE</type>
+					<value />
+				</default_value>
+				<use_second>Y</use_second>
+				<use_timezone>N</use_timezone>
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Время начала</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Время начала</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Время начала</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>datetime</base_type>
+		</field>
+		<field>
+			<id>129</id>
+			<entity_id>HLBLOCK_5</entity_id>
+			<field_name>UF_FINISH_BOOKING</field_name>
+			<user_type_id>datetime</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>I</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>
+					<type>NONE</type>
+					<value />
+				</default_value>
+				<use_second>Y</use_second>
+				<use_timezone>N</use_timezone>
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Время завершения</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Время завершения</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Время завершения</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>datetime</base_type>
+		</field>
+		<field>
+			<id>130</id>
+			<entity_id>HLBLOCK_5</entity_id>
+			<field_name>UF_USER</field_name>
+			<user_type_id>employee</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>I</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Сотрудник</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Сотрудник</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Сотрудник</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>enum</base_type>
+			<enums>
+			</enums>
+		</field>
+		<field>
+			<id>132</id>
+			<entity_id>HLBLOCK_5</entity_id>
+			<field_name>UF_CAR</field_name>
+			<user_type_id>hlblock</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>I</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<display>LIST</display>
+				<list_height>1</list_height>
+				<hlblock_id>2</hlblock_id>
+				<hlfield_id>114</hlfield_id>
+				<default_value />
+				<hlblock_table>cars</hlblock_table>
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Автомобиль</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Автомобиль</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Автомобиль</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+	</fields>
+	<items>
+		<item>
+			<id>1</id>
+			<uf_start_booking>18.06.2025 11:00:00</uf_start_booking>
+			<uf_finish_booking>18.06.2025 15:00:00</uf_finish_booking>
+			<uf_user>1</uf_user>
+			<uf_car>1</uf_car>
+		</item>
+		<item>
+			<id>2</id>
+			<uf_start_booking>18.06.2025 14:00:00</uf_start_booking>
+			<uf_finish_booking>18.06.2025 17:00:00</uf_finish_booking>
+			<uf_user>1</uf_user>
+			<uf_car>2</uf_car>
+		</item>
+		<item>
+			<id>3</id>
+			<uf_start_booking>18.06.2025 15:00:00</uf_start_booking>
+			<uf_finish_booking>18.06.2025 18:00:00</uf_finish_booking>
+			<uf_user>1</uf_user>
+			<uf_car>5</uf_car>
+		</item>
+	</items>
+</hiblock>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>2</id>
+		<name>Cars</name>
+		<table_name>cars</table_name>
+	</hiblock>
+	<langs>
+		<lang>
+			<id>2</id>
+			<lid>ru</lid>
+			<name>Автомобили</name>
+		</lang>
+	</langs>
+	<fields>
+		<field>
+			<id>114</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_NUMBER</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Номер</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Номер</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Номер</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>115</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_BRAND</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>I</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Марка</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Марка</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Марка</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>116</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_MODEL</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>I</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Модель</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Модель</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Модель</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>117</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_DRIVER</field_name>
+			<user_type_id>employee</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>I</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Водитель</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Водитель</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Водитель</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>enum</base_type>
+			<enums>
+			</enums>
+		</field>
+		<field>
+			<id>122</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_COMFORT_CATEGORIES</field_name>
+			<user_type_id>hlblock</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<display>LIST</display>
+				<list_height>1</list_height>
+				<hlblock_id>4</hlblock_id>
+				<hlfield_id>125</hlfield_id>
+				<default_value />
+				<hlblock_table>comfort_categories</hlblock_table>
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Категория комфорта</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Категория комфорта</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Категория комфорта</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+	</fields>
+	<items>
+		<item>
+			<id>1</id>
+			<uf_number>А111АА11</uf_number>
+			<uf_brand>Lada</uf_brand>
+			<uf_model>Aura</uf_model>
+			<uf_driver>1</uf_driver>
+			<uf_comfort_categories>1</uf_comfort_categories>
+		</item>
+		<item>
+			<id>2</id>
+			<uf_number>А222АА22</uf_number>
+			<uf_brand>Lada</uf_brand>
+			<uf_model>Vesta</uf_model>
+			<uf_driver>1</uf_driver>
+			<uf_comfort_categories>2</uf_comfort_categories>
+		</item>
+		<item>
+			<id>3</id>
+			<uf_number>А333АА33</uf_number>
+			<uf_brand>Lada</uf_brand>
+			<uf_model>Vesta</uf_model>
+			<uf_driver>1</uf_driver>
+			<uf_comfort_categories>2</uf_comfort_categories>
+		</item>
+		<item>
+			<id>4</id>
+			<uf_number>А444АА44</uf_number>
+			<uf_brand>Lada</uf_brand>
+			<uf_model>Granta</uf_model>
+			<uf_driver>1</uf_driver>
+			<uf_comfort_categories>3</uf_comfort_categories>
+		</item>
+		<item>
+			<id>5</id>
+			<uf_number>А555АА55</uf_number>
+			<uf_brand>Lada</uf_brand>
+			<uf_model>Granta</uf_model>
+			<uf_driver>1</uf_driver>
+			<uf_comfort_categories>3</uf_comfort_categories>
+		</item>
+	</items>
+</hiblock>

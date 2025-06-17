@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>4</id>
+		<name>ComfortCategories</name>
+		<table_name>comfort_categories</table_name>
+	</hiblock>
+	<langs>
+		<lang>
+			<id>4</id>
+			<lid>ru</lid>
+			<name>Категории комфорта</name>
+		</lang>
+	</langs>
+	<fields>
+		<field>
+			<id>125</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_NAME</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Название</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Название</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Название</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>126</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_WORK_POSITION</field_name>
+			<user_type_id>enumeration</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>Y</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>I</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<display>CHECKBOX</display>
+				<list_height>1</list_height>
+				<caption_no_value />
+				<show_no_value>Y</show_no_value>
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Должность</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Должность</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Должность</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>enum</base_type>
+			<enums>
+				<enum0>
+					<id>38</id>
+					<user_field_id>126</user_field_id>
+					<value>Директор</value>
+					<def>N</def>
+					<sort>500</sort>
+					<xml_id>93d9aa57403dd4a9f849e9cefa9b88af</xml_id>
+				</enum0>
+				<enum1>
+					<id>39</id>
+					<user_field_id>126</user_field_id>
+					<value>Руководитель отдела</value>
+					<def>N</def>
+					<sort>500</sort>
+					<xml_id>4971a8e94775d9908a3266467d45ec96</xml_id>
+				</enum1>
+				<enum2>
+					<id>40</id>
+					<user_field_id>126</user_field_id>
+					<value>Менеджер по персоналу</value>
+					<def>N</def>
+					<sort>500</sort>
+					<xml_id>192b4ad6052373dbb3ba1da09de25a04</xml_id>
+				</enum2>
+			</enums>
+		</field>
+		<field>
+			<id>127</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_MODEL</field_name>
+			<user_type_id>enumeration</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>Y</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>I</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<display>CHECKBOX</display>
+				<list_height>1</list_height>
+				<caption_no_value />
+				<show_no_value>Y</show_no_value>
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Модель</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Модель</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Модель</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>enum</base_type>
+			<enums>
+				<enum0>
+					<id>41</id>
+					<user_field_id>127</user_field_id>
+					<value>Aura</value>
+					<def>N</def>
+					<sort>500</sort>
+					<xml_id>3e264935d7513faebfd23739019cf51e</xml_id>
+				</enum0>
+				<enum1>
+					<id>42</id>
+					<user_field_id>127</user_field_id>
+					<value>Vesta</value>
+					<def>N</def>
+					<sort>500</sort>
+					<xml_id>1522a092c9caa2fed41202206d4effd0</xml_id>
+				</enum1>
+				<enum2>
+					<id>43</id>
+					<user_field_id>127</user_field_id>
+					<value>Granta</value>
+					<def>N</def>
+					<sort>500</sort>
+					<xml_id>57b7a7fbdc96af2b54aef46eaac3920f</xml_id>
+				</enum2>
+			</enums>
+		</field>
+	</fields>
+	<items>
+		<item>
+			<id>1</id>
+			<uf_name>Первая</uf_name>
+			<uf_work_position>serialize#a:1:{i:1;s:16:&quot;Директор&quot;;}</uf_work_position>
+			<uf_model>serialize#a:1:{i:1;s:4:&quot;Aura&quot;;}</uf_model>
+		</item>
+		<item>
+			<id>2</id>
+			<uf_name>Вторая</uf_name>
+			<uf_work_position>serialize#a:2:{i:1;s:16:&quot;Директор&quot;;i:2;s:37:&quot;Руководитель отдела&quot;;}</uf_work_position>
+			<uf_model>serialize#a:1:{i:1;s:5:&quot;Vesta&quot;;}</uf_model>
+		</item>
+		<item>
+			<id>3</id>
+			<uf_name>Третья</uf_name>
+			<uf_work_position>serialize#a:2:{i:1;s:37:&quot;Руководитель отдела&quot;;i:2;s:40:&quot;Менеджер по персоналу&quot;;}</uf_work_position>
+			<uf_model>serialize#a:2:{i:1;s:5:&quot;Vesta&quot;;i:2;s:6:&quot;Granta&quot;;}</uf_model>
+		</item>
+	</items>
+</hiblock>
